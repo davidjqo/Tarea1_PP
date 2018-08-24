@@ -53,11 +53,6 @@ public class Tarea1 {
         Desktop.getDesktop().open(file);
     }
 
-    public static char[] cadenaACaracteres(String cadena) {
-        char[] caracteres = cadena.toCharArray();
-        return caracteres;
-    }
-
     public static boolean verificaCadena(String cadena) {
         if ((cadena.charAt(0) >= '0') && (cadena.charAt(0) <= '9')) {
             if ((cadena.charAt(1) == '-') && (cadena.charAt(6) == '-') && (cadena.length() == 11)) {
